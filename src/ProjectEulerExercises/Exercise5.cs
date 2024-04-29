@@ -1,4 +1,6 @@
-﻿namespace ProjectEulerExercises;
+﻿using System.Diagnostics;
+
+namespace ProjectEulerExercises;
 
 internal static class ExerciseFive
 {
@@ -20,6 +22,8 @@ internal static class ExerciseFive
 
     public static int GetSmallestPositiveNumber(int minRange, int maxRange)
     {
+        // TODO: Implement Dynamic Programming to optimize and reduce computation time.
+
         bool found = false;
         int actualNumber = 1;
 
@@ -52,8 +56,12 @@ internal static class ExerciseFive
 
     public static void SmallestMultiple()
     {
-        int result = GetSmallestPositiveNumber(1, 10);
+        Stopwatch sw = Stopwatch.StartNew();
 
-        Console.WriteLine("Exercise 5 response = " + result);
+        int result = GetSmallestPositiveNumber(1, 20);
+
+        sw.Stop();
+
+        Console.WriteLine($"Exercise 5 response = {result} in {sw.Elapsed}");
     }
 }
