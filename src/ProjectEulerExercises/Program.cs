@@ -13,3 +13,5 @@ ExerciseThree.CalculateLargestPrimeFactor();
 ExerciseFour.GetLargestPalindromeProduct();
 
 */
+
+ExerciseFive.SmallestMultiple();
