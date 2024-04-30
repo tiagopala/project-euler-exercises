@@ -35,7 +35,7 @@ internal class ExerciseSix
     public static void SumSquareDifference()
     {
         int minRange = 1;
-        int maxRange = 1000;
+        int maxRange = 100;
 
         int resultSumOfSquares = CalculateSumOfSquares(minRange, maxRange);
 
