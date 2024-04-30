@@ -2,7 +2,7 @@
 
 internal static class ExerciseOne
 {
-    public static IEnumerable<int> GetMultiples(int multiple, int range)
+    private static IEnumerable<int> GetMultiples(int multiple, int range)
     {
         var multiples = new List<int>();
 
@@ -17,7 +17,7 @@ internal static class ExerciseOne
         return multiples;
     }
 
-    public static int SumNumbers(IEnumerable<int> sequence)
+    private static int SumNumbers(IEnumerable<int> sequence)
     {
         int sum = 0;
 

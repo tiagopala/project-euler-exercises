@@ -2,7 +2,7 @@
 
 internal static class ExerciseFour
 {
-    public static bool IsPalindrome(int number)
+    private static bool IsPalindrome(int number)
     {
         string numberString = number.ToString();
 
@@ -30,7 +30,7 @@ internal static class ExerciseFour
         return true;
     }
 
-    public static int GetLargestPalindromeFromDigit(int digitQuantity)
+    private static int GetLargestPalindromeFromDigit(int digitQuantity)
     {
         int minRange = (int)Math.Pow(10, digitQuantity - 1);
         int maxRange = (int)Math.Pow(10, digitQuantity) - 1;

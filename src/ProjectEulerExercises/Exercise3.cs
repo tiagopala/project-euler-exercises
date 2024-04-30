@@ -5,7 +5,7 @@ internal static class ExerciseThree
     // Prime Factors are numbers that can be divided only by 1 and by the them.
     // Example: 17 can be divided only by 1 and by 17.
 
-    public static List<long> GetPrimeFactors(long number, List<long>? primeFactors = null)
+    private static List<long> GetPrimeFactors(long number, List<long>? primeFactors = null)
     {
         primeFactors ??= new();
 

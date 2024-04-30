@@ -2,7 +2,7 @@
 
 internal class ExerciseTwo
 {
-    public static IEnumerable<int> GetFibonacciNumbers(int maxRange)
+    private static IEnumerable<int> GetFibonacciNumbers(int maxRange)
     {
         List<int> fibonacciNumbers = new();
 
@@ -28,7 +28,7 @@ internal class ExerciseTwo
         return fibonacciNumbers;
     }
 
-    public static int SumEvenTerms(IEnumerable<int> terms)
+    private static int SumEvenTerms(IEnumerable<int> terms)
     {
         int sum = 0;
 
