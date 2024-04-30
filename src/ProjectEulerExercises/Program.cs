@@ -13,6 +13,8 @@ ExerciseThree.CalculateLargestPrimeFactor();
 ExerciseFour.GetLargestPalindromeProduct();
 
 ExerciseFive.SmallestMultiple();
-*/
 
 ExerciseSix.SumSquareDifference();
+
+ExerciseSeven.Get10001stPrime();
+*/
