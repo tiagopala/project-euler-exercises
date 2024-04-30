@@ -10,7 +10,7 @@ internal static class ExerciseFive
 
     // create function to iterate through minRange and maxRange until all of them succeded
 
-    public static bool CouldBeDividedWithoutRemainder(int dividend, int divisor)
+    private static bool CouldBeDividedWithoutRemainder(int dividend, int divisor)
     {
         if (dividend % divisor == 0)
         {
@@ -20,7 +20,7 @@ internal static class ExerciseFive
         return false;
     }
 
-    public static int GetSmallestPositiveNumber(int minRange, int maxRange)
+    private static int GetSmallestPositiveNumber(int minRange, int maxRange)
     {
         // TODO: Implement Dynamic Programming to optimize and reduce computation time.
 
