@@ -18,3 +18,5 @@ ExerciseSix.SumSquareDifference();
 
 ExerciseSeven.Get10001stPrime();
 */
+
+ExerciseEight.LargestProductInSeries();
